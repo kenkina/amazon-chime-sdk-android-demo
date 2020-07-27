@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-364750906/amazon-chime-sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-364750906/amazon-chime-sdk.iml" group="amazon-chime-sdk-android/amazon-chime-sdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1996645079/amazon-chime-sdk-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-1996645079/amazon-chime-sdk-android.iml" group="amazon-chime-sdk-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="amazon-chime-sdk-android/app" />
+    </modules>
+  </component>
+</project>

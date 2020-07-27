@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ef44292-af85-4bf2-b3a2-4da3dc743fd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../THIRD-PARTY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/AttendeeUpdate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/AudioVideoControllerFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/AudioVideoFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/AudioVideoObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/DefaultAudioVideoController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/DefaultAudioVideoFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/SignalStrength.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/VolumeLevel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerdetector/ActiveSpeakerDetectorFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerdetector/ActiveSpeakerObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerdetector/DefaultActiveSpeakerDetector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerpolicy/ActiveSpeakerPolicy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerpolicy/DefaultActiveSpeakerPolicy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/metric/MetricsObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/metric/ObservableMetric.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoRenderView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoTile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoTileController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoTileFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoPauseState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoRenderView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileControllerFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/device/DefaultDeviceController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/device/DeviceChangeObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/device/DeviceController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/device/MediaDevice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/AttendeeStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/SessionStateControllerAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/AudioClientController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/AudioClientFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/AudioClientObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/AudioClientState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/DefaultAudioClientController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/DefaultAudioClientObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/metric/ClientMetricsCollector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/metric/DefaultClientMetricsCollector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/utils/ObserverUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientStateController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/TURNCredentials.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/TURNRequestParams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/VideoClientController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/VideoClientLifecycleHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/VideoClientObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/VideoClientState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/internal/video/VideoClientStateController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/realtime/DefaultRealtimeController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/realtime/RealtimeControllerFacade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/realtime/RealtimeObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/CreateAttendeeResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/CreateMeetingResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/DefaultMeetingSession.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSession.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionCredentials.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionStatusCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionURLs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/session/URLRewriter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/utils/Versioning.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/utils/logger/ConsoleLogger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/utils/logger/LogLevel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/java/com/amazonaws/services/chime/sdk/meetings/utils/logger/Logger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/DefaultAudioVideoControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/DefaultAudioVideoFacadeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerdetector/DefaultActiveSpeakerDetectorTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/audio/activespeakerpolicy/DefaultActiveSpeakerPolicyTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoTileControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/DefaultVideoTileFactoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/audiovideo/video/VideoTileStateTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/device/DefaultDeviceControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/device/MediaDeviceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/AttendeeStatusTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/DefaultAudioClientControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/audio/DefaultAudioClientObserverTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/metric/DefaultClientMetricsCollectorTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/utils/ObserverUtilsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientObserverTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/internal/video/DefaultVideoClientStateControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/realtime/DefaultRealtimeControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/session/DefaultMeetingSessionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionConfigurationJavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionConfigurationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionStatusCodeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/session/MeetingSessionStatusTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/utils/VersioningTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/src/test/java/com/amazonaws/services/chime/sdk/meetings/utils/logger/ConsoleLoggerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../amazon-chime-sdk/version.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___amazon_chime_sdk_media__aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_agent_api_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_agent_common_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_agent_jvm_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_common_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_dsl_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_mockk_mockk_dsl_jvm_1_9_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_61_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_61_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_61_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_test_1_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/activity/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/activity/MeetingActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/activity/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/adapter/MetricAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/adapter/RosterAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/adapter/VideoAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/data/JoinMeetingResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/data/MetricData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/data/RosterAttendee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/data/VideoCollectionTile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/fragment/DeviceManagementFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/fragment/MeetingFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/model/MeetingModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/model/MeetingSessionModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazonaws/services/chime/sdkdemo/utils/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/active_speaker_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_camera_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_end.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_mute.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_mute_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_speaker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_switch_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_camera_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_camera_enabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_dial_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_hang_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_audio_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_audio_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_audio_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_enabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_poor_connectivity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_microphone_poor_connectivity_dissabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_mute.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_mute_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_pause_video.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_resume_video.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_sound_enabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_switch_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_meeting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_device_management.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_meeting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_video.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/row_metric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/row_roster.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/alltypes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-detector-facade/add-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-detector-facade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-detector-facade/remove-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-observer/on-active-speaker-detected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-observer/on-active-speaker-score-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-active-speaker-observer/score-callback-interval-ms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/add-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/audio-client-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-attendees-dropped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-attendees-joined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-attendees-left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-attendees-muted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-attendees-unmuted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-signal-strength-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/on-volume-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/-default-active-speaker-detector/remove-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerdetector/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/-active-speaker-policy/calculate-score.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/-active-speaker-policy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/-default-active-speaker-policy/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/-default-active-speaker-policy/calculate-score.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/-default-active-speaker-policy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.audio.activespeakerpolicy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-metrics-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-metrics-observer/on-metrics-received.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/audio-receive-packet-loss-percent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/audio-send-packet-loss-percent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-available-receive-bandwidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-available-send-bandwidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-receive-bitrate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-receive-packet-loss-percent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-send-bitrate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-send-fps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-send-packet-loss-percent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/-observable-metric/video-send-rtt-ms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.metric/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-render-view/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-render-view/finalize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-render-view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-render-view/initialize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-render-view/render-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/add-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/bind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/initialize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/on-receive-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/pause-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/remove-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/resume-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-controller/unbind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-factory/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-factory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile-factory/make-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/render-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/set-pause-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/unbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-default-video-tile/video-render-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/-paused-by-user-request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/-paused-for-poor-connection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/-unpaused.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-pause-state/value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-render-view/finalize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-render-view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-render-view/initialize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-render-view/render-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/add-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/bind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/pause-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/remove-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/resume-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller-facade/unbind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller/destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller/initialize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-controller/on-receive-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-factory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-factory/make-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/on-video-tile-added.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/on-video-tile-paused.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/on-video-tile-removed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/on-video-tile-resumed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-observer/on-video-tile-size-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/attendee-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/is-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/is-local-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/pause-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/tile-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/video-stream-content-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile-state/video-stream-content-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/render-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/set-pause-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/unbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/-video-tile/video-render-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo.video/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-attendee-info/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-attendee-info/attendee-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-attendee-info/external-user-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-attendee-info/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/add-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/add-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/remove-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/remove-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/start-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/start-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/stop-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/stop-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-controller-facade/stop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-facade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-audio-session-cancelled-reconnect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-audio-session-dropped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-audio-session-started-connecting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-audio-session-started.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-audio-session-stopped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-connection-became-poor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-connection-recovered.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-video-session-started-connecting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-video-session-started.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-audio-video-observer/on-video-session-stopped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/add-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/add-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/remove-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/remove-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/start-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/start-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/stop-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/stop-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-controller/stop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/add-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/bind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/choose-audio-device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/get-active-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/list-audio-devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/pause-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/realtime-local-mute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/realtime-local-unmute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-active-speaker-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-audio-video-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-metrics-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/remove-video-tile-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/resume-remote-video-tile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/start-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/start-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/stop-local-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/stop-remote-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/stop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/switch-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-default-audio-video-facade/unbind-video-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/-high.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/-low.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/-none.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-strength/value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-update/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-update/attendee-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-update/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-signal-update/signal-strength.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/-high.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/-low.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/-medium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/-muted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/-not-speaking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-level/value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-update/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-update/attendee-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-update/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/-volume-update/volume-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.audiovideo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/add-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/choose-audio-device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/get-active-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/list-audio-devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/notify-audio-device-change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/remove-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-default-device-controller/switch-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-change-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-change-observer/on-audio-device-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/add-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/choose-audio-device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/get-active-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/list-audio-devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/remove-device-change-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-device-controller/switch-camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-a-u-d-i-o_-b-l-u-e-t-o-o-t-h.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-a-u-d-i-o_-b-u-i-l-t-i-n_-s-p-e-a-k-e-r.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-a-u-d-i-o_-h-a-n-d-s-e-t.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-a-u-d-i-o_-w-i-r-e-d_-h-e-a-d-s-e-t.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-o-t-h-e-r.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-v-i-d-e-o_-b-a-c-k_-c-a-m-e-r-a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/-v-i-d-e-o_-f-r-o-n-t_-c-a-m-e-r-a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/from-audio-device-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device-type/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/label.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/to-string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/-media-device/type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.device/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/add-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/realtime-local-mute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/realtime-local-unmute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-default-realtime-controller/remove-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-controller-facade/add-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-controller-facade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-controller-facade/realtime-local-mute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-controller-facade/realtime-local-unmute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-controller-facade/remove-realtime-observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-attendees-dropped.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-attendees-joined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-attendees-left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-attendees-muted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-attendees-unmuted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-signal-strength-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/-realtime-observer/on-volume-changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.realtime/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-attendee/-attendee-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-attendee/-external-user-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-attendee/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-attendee/-join-token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-attendee/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-attendee-response/-attendee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-attendee-response/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-attendee-response/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-meeting-response/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-meeting-response/-meeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-create-meeting-response/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-default-meeting-session/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-default-meeting-session/audio-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-default-meeting-session/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-default-meeting-session/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-default-meeting-session/logger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/-audio-fallback-url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/-audio-host-url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/-signaling-url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/-turn-control-url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-media-placement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-configuration/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-configuration/credentials.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-configuration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-configuration/meeting-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-configuration/urls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-credentials/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-credentials/attendee-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-credentials/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-credentials/join-token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-authentication-rejected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-call-at-capacity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-call-ended.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-disconnect-audio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-disconnected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-internal-server-error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-joined-from-another-device.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-audio-service-unavailable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-connection-health-reconnect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-network-became-poor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-o-k.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-video-at-capacity-view-only.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/-video-service-failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status-code/value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-status/status-code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/audio-fallback-u-r-l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/audio-host-u-r-l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/signaling-u-r-l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/turn-control-u-r-l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session-u-r-ls/url-rewriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session/audio-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting-session/logger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/-external-meeting-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/-media-placement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/-media-region.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/-meeting-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-meeting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/-u-r-l-rewriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/default-url-rewriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.session/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/get-log-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/set-log-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/verbose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-console-logger/warn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-d-e-b-u-g.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-e-r-r-o-r.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-i-n-f-o.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-o-f-f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-v-e-r-b-o-s-e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/-w-a-r-n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-log-level/priority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/get-log-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/set-log-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/verbose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/-logger/warn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils.logger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils/-versioning/-init-.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils/-versioning/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils/-versioning/sdk-version.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/com.amazonaws.services.chime.sdk.meetings.utils/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/index-outline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/amazon-chime-sdk/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guides/01_Getting_Started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pull_request_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_28_x86_1" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fE3yBjalIGWFeBVJ7pxA7odbDn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ef44292-af85-4bf2-b3a2-4da3dc743fd3" name="Default Changelist" comment="" />
+      <created>1595736202653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595736202653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom" timestamp="1595809589374">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595809589374" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center" timestamp="1595809589372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595809589372" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left" timestamp="1595809589370">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595809589370" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right" timestamp="1595809589372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595809589372" />
+    <state x="372" y="207" width="695" height="486" key="find.popup" timestamp="1595802748125">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="372" y="207" width="695" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1595802748125" />
+  </component>
+</project>
